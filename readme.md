@@ -3,7 +3,21 @@
 ## Introduction
 Installing docker in windows is a troublesome task. This repo will help you to install docker on windows. 
 
-### To install docker <br>
+## Running the Script
+Clone the repository
+```sh
+git clone https://github.com/chinmay-d/Easy-Install-Docker-in-Windows-with-Powershell-script.git
+```
+Open windows Powershell with administrator privileges by `Menu > Windows Powershell > Run as Administrator`.
+
+`cd` to the path where you have the cloned repository and then simply run
+```sh
+.\dockerinstallwsl2.ps1
+```
+
+**Note:**  Read the below instruction thoroughly and then run the script.
+
+## To Install Docker <br>
 
 **Note:** Step 1 has to be manually done and other steps will be done automatically by running the provided script
 
@@ -16,15 +30,3 @@ Installing docker in windows is a troublesome task. This repo will help you to i
 5. Finally, after all requirements for installing docker in windows are satisfied the script will install docker and ask for a `restart`, this is the final `restart`.
 
 Now you will be able to see docker installed into your windows system. 🎊 🎊 🥳 🥳
-
-## How to run
-Clone the repository
-```sh
-git clone https://github.com/chinmay-d/Easy-Install-Docker-in-Windows-with-Powershell-script.git
-```
-Open windows Powershell with administrator privileges by `Menu > Windows Powershell > Run as Administrator`.
-
-`cd` to the path where you have the cloned repository and then simply run
-```sh
-.\dockerinstallwsl2.ps1
-```
